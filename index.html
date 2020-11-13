@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/owl.carousel.min.css">
+  <link rel="stylesheet" href="./style/owl.theme.default.min.css">
 
   <title>Netflix Clone</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,14 +36,38 @@
           abusam dos seus poderes ao invés de os usarem para o bem.
         </p>
       </div>
-      <button class="btn" role="button">
-        ASSISTIR AGORA
-      </button>
-      <button class="btn" role="button">
-        MAIS INFORMAÇÕES
-      </button>
+      <div class="container">
+        <button class="btn" role="button">
+          <i class="fas fa-play"></i>
+          ASSISTIR AGORA
+        </button>
+        <button class="btn" role="button">
+          <i class="fas fa-info-circle"></i>
+          MAIS INFORMAÇÕES
+        </button>
+      </div>
     </div>
   </main>
+
+  <div class="movie-carousel">
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img class="box-film" src="img/img01.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img02.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img03.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img04.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img05.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img06.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img07.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img08.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img09.jpg"></div>
+      <div class="item"><img class="box-film" src="img/img10.jpg"></div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/setup.js"></script>
 </body>
 
 </html>
