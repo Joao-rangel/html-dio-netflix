@@ -25,10 +25,9 @@ header .container{
   justify-content: space-between;
 }
 
-header .logo {
-  color: var(--red);
-  font-family: 'roboto', Arial, Helvetica, sans-serif;
-  font-size: 40px;
+header img {
+  height: 45px;
+  margin: 2px 0;
 }
 
 header nav a {
